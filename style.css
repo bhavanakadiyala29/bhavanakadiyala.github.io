@@ -1,0 +1,81 @@
+
+/* assets/css/style.css */
+
+body {
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f9fbff;
+  color: #333;
+  line-height: 1.6;
+}
+.container {
+  width: 90%;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 1rem 0;
+}
+.header {
+  background: #0077cc;
+  color: white;
+  padding: 1rem 0;
+}
+.logo {
+  font-size: 1.8rem;
+  margin: 0;
+}
+.navbar {
+  margin-top: 0.5rem;
+}
+.nav-link {
+  color: white;
+  text-decoration: none;
+  margin-right: 1rem;
+  font-weight: 600;
+}
+.nav-link:hover {
+  text-decoration: underline;
+}
+.hero {
+  background: #e8f1fb;
+  padding: 3rem 0;
+  text-align: center;
+}
+.hero h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+.btn-primary, .btn-secondary {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  margin-top: 1rem;
+  font-weight: 600;
+  border-radius: 8px;
+  text-decoration: none;
+}
+.btn-primary {
+  background: #0077cc;
+  color: white;
+}
+.btn-primary:hover {
+  background: #005fa3;
+}
+.btn-secondary {
+  background: #ffffff;
+  color: #0077cc;
+  border: 2px solid #0077cc;
+}
+.btn-secondary:hover {
+  background: #e8f1fb;
+}
+.highlight {
+  background: #ffffff;
+  padding: 2rem 0;
+}
+.footer {
+  background: #f1f1f1;
+  text-align: center;
+  padding: 1.5rem 0;
+  font-size: 0.9rem;
+  color: #555;
+}
