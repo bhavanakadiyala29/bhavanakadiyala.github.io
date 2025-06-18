@@ -1,49 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Projects | Bhavana Kadiyala</title>
-  <link rel="stylesheet" href="assets/css/style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Projects - Bhavana Kadiyala</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <header class="header">
-    <div class="container">
-      <h1 class="logo">Bhavana Kadiyala</h1>
-      <nav class="navbar">
-        <a href="index.html" class="nav-link">Home</a>
-        <a href="projects.html" class="nav-link">Projects</a>
-        <a href="about.html" class="nav-link">About</a>
-      </nav>
-    </div>
+  <header>
+    <nav>
+      <div class="logo">Bhavana Kadiyala</div>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="projects.html" class="active">Projects</a></li>
+        <li><a href="skills.html">Skills</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
   </header>
-  <main class="main">
-    <div class="container">
-      <h2>Projects</h2>
-      <div class="project-list">
-        <div class="project">
-          <h3>Freelance Platform Data Warehouse</h3>
-          <p>Built a data warehouse using MySQL and QlikView dashboards to analyze bids, project completion, and freelancer activity. Optimized schemas using ER and dimensional models.</p>
-        </div>
-        <div class="project">
-          <h3>Global Terrorism Visualization (Tableau)</h3>
-          <p>Analyzed trends from 1970–2017 using Tableau dashboards, highlighting patterns by region, attack type, and victim demographics to support counter-terrorism strategy insights.</p>
-        </div>
-        <div class="project">
-          <h3>Web-based LMS System</h3>
-          <p>Developed a Learning Management System using C#, SQL Server, HTML/CSS. Created login, registration, course management, and backend connectivity with .NET framework.</p>
-        </div>
-        <div class="project">
-          <h3>Automation & Monitoring Scripts (PowerShell & Bash)</h3>
-          <p>Created scripts for disk space monitoring, SQL backups, and hybrid server maintenance—cutting manual work by 60% and reducing incident response times.</p>
-        </div>
+
+  <section class="projects">
+    <h2>My Projects</h2>
+    <div class="project-grid">
+      <div class="project-card">
+        <h3>ER Visit Analysis</h3>
+        <p>Used SQL and Power BI to analyze ER patient data to optimize bed allocation.</p>
+        <a href="#">View on GitHub</a>
+      </div>
+      <div class="project-card">
+        <h3>Sales Dashboard</h3>
+        <p>Designed an interactive dashboard using Tableau for sales trend insights.</p>
+        <a href="#">View on GitHub</a>
       </div>
     </div>
-  </main>
-  <footer class="footer">
-    <div class="container">
-      <p>&copy; 2025 Bhavana Kadiyala</p>
-    </div>
-  </footer>
+  </section>
 </body>
 </html>
