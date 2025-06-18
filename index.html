@@ -1,44 +1,923 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Bhavana Kadiyala | SQL DBA Portfolio</title>
-  <link rel="stylesheet" href="assets/css/style.css">
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" type="image/png" href="assets/images/favicon.png" />
+  <title>Bhavana Kadiyala's Portfolio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <header class="header">
-    <div class="container">
-      <h1 class="logo">Bhavana Kadiyala</h1>
-      <nav class="navbar">
-        <a href="index.html" class="nav-link">Home</a>
-        <a href="projects.html" class="nav-link">Projects</a>
-        <a href="about.html" class="nav-link">About</a>
-      </nav>
+
+  <!-- Navigation Bar -->
+  <nav>
+    <a href="#home"><i class="fas fa-home"></i><span class="nav-label">Home</span></a>
+    <a href="#about"><i class="fas fa-user"></i><span class="nav-label">About</span></a>
+    <a href="#experience"><i class="fas fa-briefcase"></i><span class="nav-label">Experience</span></a>
+    <a href="#projects"><i class="fas fa-project-diagram"></i><span class="nav-label">Projects</span></a>
+    <a href="#certifications"><i class="fas fa-certificate"></i><span class="nav-label">Certifications</span></a>
+    <a href="#recommendations"><i class="fas fa-comment-dots"></i><span class="nav-label">Recommendations</span></a>
+    <a href="#contact"><i class="fas fa-envelope"></i><span class="nav-label">Contact</span></a>
+  </nav>
+
+  <main>
+    <!-- Home Section -->
+    <section id="home" class="home-section">
+      <img src="assets/images/picture.JPG" alt="Bhavana Kadiyala" class="home-image" />
+      <h1 class="home-title">Bhavana Kadiyala</h1>
+      <h2 class="home-subtitle"><span id="typed-role"></span></h2>
+      <div class="icon-links">
+        <a href="https://www.linkedin.com/in/akhila-akula-6332a9155/" target="_blank" title="Linkedin Profile"><i class="fab fa-linkedin"></i></a>
+        <a href="https://github.com/akhilaakula78/" target="_blank" title="Github Profile"><i class="fab fa-github"></i></a>
+        <a href="https://www.salesforce.com/trailblazer/aakula22" target="_blank" title="Salesforce Trailblazer Profile"><i class="fas fa-mountain"></i></a>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+      <h2 class="section-title">About</h2>
+      <div style="margin-top: 2rem;">
+        <p class="padded-paragraph">
+          I am a data professional with a strong academic background and over five years of experience delivering data-driven solutions across higher education, healthcare, marketing, and consulting. In May 2025, I completed my Master of Science in Business Analytics from the University of North Texas, where I specialized in enterprise data engineering, predictive analytics, and cloud-based automation through rigorous coursework and practical application.
+        </p>
+
+        <p class="padded-paragraph">
+          Throughout my career, I’ve developed scalable data systems that integrate cloud platforms, automate ETL pipelines, and power advanced analytics. I’ve worked across modern data stacks using tools like dbt, Talend, Infoworks, and PySpark, and have delivered data pipelines on platforms like AWS, GCP, and Snowflake. My SQL proficiency spans PostgreSQL, MySQL, Hive, and BigQuery, with expertise in building reusable components that support large-scale ingestion and transformation workflows.
+        </p>
+
+        <p class="padded-paragraph">
+          Python is my go-to language for scripting, data manipulation, and automation—using libraries such as Pandas, NumPy, scikit-learn, and Plotly. I’ve built predictive models for healthcare and insurance segmentation, integrated RESTful APIs for real-time engagement, and deployed analytical dashboards through Power BI, Tableau, and Looker Studio. I also bring experience in validation and QA for SAP ECC to S/4HANA migrations, ensuring 99.9% data integrity for mission-critical systems.
+        </p>
+
+        <p class="padded-paragraph">
+          I’ve worked in Agile teams and collaborated cross-functionally with analysts, developers, and business stakeholders to translate objectives into technical solutions. I take pride in delivering systems that are not just functional, but intuitive and insightful—whether it’s an automated reporting framework, a cloud-native ETL pipeline, or a machine learning model for decision support.
+        </p>
+
+        <p class="padded-paragraph">
+          While my primary focus has been AWS and Snowflake, I’ve also worked with Azure services like Data Factory, Functions, and Synapse Analytics. My goal is to continue creating intelligent, scalable systems that empower organizations to turn data into meaningful action.
+        </p>
+      </div>
+    </section>
+
+
+ 
+
+  <!-- Experience Section -->
+  <section id="experience">
+    <h2 class="section-title">Experience</h2>
+    <p class="padded-paragraph">Over the past few years, I’ve led and supported data-driven initiatives across higher education, marketing, healthcare, and consulting. My work has spanned the full data lifecycle from building dynamic marketing automation flows and designing predictive models, to engineering scalable ETL pipelines and crafting executive dashboards. I’ve partnered closely with cross-functional teams to translate business needs into robust technical solutions that improve decision-making, streamline operations, and deliver measurable impact.</p>
+    
+    <div class="experience-timeline">
+      <div class="experience-left">
+        <div class="experience-entry">
+      <h3>Data Analyst – University of North Texas</h3>
+      <p class="experience-time">Aug 2023 – Present | Higher Education</p>
+      <ul>
+        <li>Built and maintained interactive dashboards using Power BI and Excel to track student enrollment, alumni outcomes, and campaign performance, improving visibility across 30+ academic programs.</li>
+        <li>Automated recurring reporting tasks using custom Excel macros, reducing manual effort by 30% and increasing reliability of weekly/monthly deliverables.</li>
+        <li>Led analytics integration during Modern Campus CMS migration, ensuring continuity in engagement tracking and data accuracy post-launch.</li>
+        <li>Created Alumni Pathways reports using Lightcast Analyst to analyze post-graduation workforce trends, supporting program planning and ROI assessments.</li>
+        <li>Conducted competitive benchmarking on AI use in higher education marketing, delivering actionable insights for AI-driven personalization strategies.</li>
+        <li>Collaborated with leadership to align dashboards and KPIs with strategic goals, enabling real-time decision-making for digital enrollment campaigns.</li>
+      </ul>
+      <p class="tech-used"><strong>Tech:</strong> Power BI, Excel, Excel Macros (VBA), Looker Studio, Lightcast Analyst, Modern Campus CMS, Google Analytics, KPI Frameworks</p>
+        </div>
+
+
+        <div class="experience-entry">
+      <h3>Technical Lead – Genetrix Technology</h3>
+      <p class="experience-time">Jul 2023 – Sep 2023 | Healthcare, Insurance</p>
+      <ul>
+        <li>Developed predictive lead classification models using logistic regression, random forest, LightGBM, and XGBoost in Python (scikit-learn), achieving ~82% accuracy across 10,000+ CRM and campaign records.</li>
+        <li>Engineered 20+ behavioral and demographic features (e.g., interaction frequency, lead source) using Pandas, improving model precision by 18% over baseline.</li>
+        <li>Designed and delivered Tableau dashboards to visualize segmentation and conversion performance; facilitated stakeholder alignment on targeting strategies and campaign optimization roadmap.</li>
+      </ul>
+      <p class="tech-used"><strong>Tech:</strong> Python, Pandas, scikit-learn, LightGBM, XGBoost, Logistic Regression, Random Forest, Tableau, CRM Systems</p>
+        </div>
+      </div>
+
+      <div class="experience-right">
+        <div class="experience-entry">
+              <h3>Data Engineering & Application Development – Accenture</h3>
+              <p class="experience-time">Oct 2020 – Jul 2023 | Consulting, Pharma, Utilities</p>
+              
+              <h4>Data Engineering</h4>
+              <ul>
+                <li>Designed and implemented enterprise-scale data replication and transformation workflows in Infoworks, including table onboarding, logic definitions, and automated data pipelines.</li>
+                <li>Wrote and optimized 30+ stored procedures and views in Google BigQuery, improving reporting performance by 25% through transformation of ingestion-stage data.</li>
+                <li>Automated metadata validation between Hive and BigQuery using shell scripting and Excel (VLOOKUP, COUNTIF), ensuring schema and record alignment, reducing QA effort by 40%.</li>
+                <li>Partnered with analysts and SMEs to define scalable data models and translate requirements into technical specifications, supporting consistent data delivery for 30+ key tables.</li>
+                <li>Troubleshot and resolved Infoworks pipeline issues, maintaining 99% SLA compliance on daily and weekly data refresh cycles.</li>
+                <li>Configured and maintained Talend jobs using DBeaver, integrating internal and third-party data sources and ensuring job reliability across distributed systems.</li>
+              </ul>
+
+              <h4>Data Migration</h4>
+              <ul>
+                <li>Validated data migration from SAP ECC to S/4HANA by comparing material master, vendor, and financial records using SQL and Excel, achieving 99.9% data integrity.</li>
+                <li>Identified and documented 100+ anomalies across 30+ tables; created Jira tickets with source-to-target mappings, accelerating defect resolution by 45%.</li>
+                <li>Developed Excel-based validation frameworks for business-critical datasets, reducing QA time by 40% during mock cutovers.</li>
+                <li>Translated complex data logic into field-level specifications and collaborated with data engineering and QA teams to increase load accuracy by 35%.</li>
+                <li>Produced FDA GxP-compliant documentation supporting cloud infrastructure audit and data integrity validation.</li>
+                <li>Contributed to Agile ceremonies and defect triage processes, improving test velocity and cross-team communication.</li>
+              </ul>
+
+              <h4>Application Development Associate</h4>
+              <ul>
+                <li>Built and automated global multi-stage marketing journeys across APAC, EU, NA, and Intercontinental regions using Salesforce Marketing Cloud (Journey Builder, Automation Studio, Data Extensions).</li>
+                <li>Queried and segmented CRM data using SQL in Audience Builder to personalize campaigns and improve targeting precision.</li>
+                <li>Developed responsive emails and landing pages using HTML, CSS, AMPscript, and SSJS; created modular templates to reduce build time by 60% and development cost by 30%.</li>
+                <li>Integrated real-time surveys using AWS Lambda within campaigns, boosting behavioral response rates by 30% and syncing with FICA databases.</li>
+                <li>Created and maintained 6+ Tableau dashboards using SFMC engagement data to track KPIs, campaign trends, and regional performance.</li>
+                <li>Worked with web developers to align assets with brand/UX standards; supported Agile delivery and sprint-based testing cycles.</li>
+              </ul>
+
+              <p class="tech-used"><strong>Tech:</strong> Infoworks, Google BigQuery, Hive, Shell Scripting, Excel (VLOOKUP, COUNTIF), Talend, DBeaver, SAP S/4HANA, SFMC (Journey Builder, Automation Studio, AMPscript, SSJS), SQL, HTML/CSS, AWS Lambda, Tableau, Jira, Confluence, FDA GxP</p>
+        </div>
+      </div>
     </div>
-  </header>
-  <main class="main">
-    <section class="hero">
-      <div class="container">
-        <h2>Transforming Data into Insightful Solutions</h2>
-        <p>I'm a passionate SQL DBA and Data Analyst, turning complex data challenges into efficient, scalable solutions. Explore my projects and professional journey below.</p>
-        <a href="projects.html" class="btn-primary">View My Work</a>
+  </section>
+
+
+
+  <!-- Education Section -->
+  <section id="education">
+    <h2 class="section-title">Education</h2>
+
+    <div class="education-entry">
+      <h3>University of North Texas</h3>
+      <p><strong>Master of Science in Business Analytics</strong><br>
+        G. Brint Ryan College of Business<br>
+        Aug 2023 – May 2025 | GPA: 4.0 / 4.0
+      </p>
+      <p><em>Coursework:</em> Data Mining, Predictive Analytics, Enterprise Data Warehousing, Big Data Analytics, Statistics, AI & ML</p>
+      
+      <!-- NEW: Extracurricular Activities -->
+      <div class="extracurricular-section">
+        <p class="extracurricular-title"><em>Extracurricular Activities:</em></p>
+          <ul class="activity-list">
+            <li>Recipient of the R.B. Toulouse Scholarship for two consecutive years (2023–2025).</li>
+            <li>Recipient of the Distinguished Performance Award in recognition of consistent academic excellence.</li>
+            <li>Business Analytics Club Member – Engaged in workshops, networking events, and Business Analytics Day.</li>
+            <li>Vice President of Alumni Relations, Beta Gamma Sigma (BGS), UNT – Led alumni engagement initiatives and coordinated networking events to strengthen alumni-student connections and enhance professional development opportunities within the BGS community.</li>
+          </ul>
+
+      </div>
+    </div>
+
+    <div class="education-entry">
+      <h3>Sreenidhi Institute of Science & Technology (SNIST)</h3>
+      <p><strong>Bachelor of Technology in Information Technology</strong><br>
+        Jawaharlal Nehru Technological University Hyderabad<br>
+        Jun 2016 – May 2020 | GPA: 9.75 / 10
+      </p>
+      <p><em>Coursework:</em> Software Engineering, Data Structures & Algorithms, Web Technologies, DBMS, Cloud Computing, Data Warehousing</p>
+      
+      <!-- NEW: Extracurricular Activities -->
+      <div class="extracurricular-section">
+        <p class="extracurricular-title"><em>Extracurricular Activities:</em></p>
+          <ul class="activity-list">
+            <li>Recipient of the TSEPASS Scholarship for academic excellence throughout all four years (2016–2020).</li>
+            <li>Recipient of the NSF Scholarship for outstanding academic performance during undergraduate studies.</li>
+            <li>General Secretary, CSAC-SNIST (2019–2020) – Directed student engagement programming, managed memberships and finances, and led the organization of the annual fest Adastra and other inter/intra-college technical events.</li>
+            <li>Head of PR & Marketing, CSAC-SNIST (2018–2019) – Developed and implemented marketing strategies, managed the club’s social media, and handled communications and event scheduling.</li>
+            <li>Head of Design, CSAC-SNIST (2017–2018) – Created visual assets for events, coordinated informative sessions, and supported event logistics and venue management.</li>
+          </ul>
+      </div>
+    </div>
+  </section>
+
+
+    <!-- Projects Section with Modal -->
+    <section id="projects">
+      <h2 class="section-title">Projects</h2>
+      <p class="padded-paragraph">
+My portfolio showcases a diverse range of hands-on projects across data engineering, analytics, data science, and business intelligence. These projects reflect real-world scenarios and business challenges, including building automated ETL pipelines, developing machine learning models, architecting data warehouses, and designing interactive dashboards. Each initiative demonstrates my ability to transform raw data into strategic insights whether by forecasting outcomes, identifying optimization opportunities, or visualizing trends that drive better decisions. The collection highlights not just technical depth, but also the ability to align data solutions with stakeholder needs in a scalable, impactful way.</p>
+
+      <div class="project-thumbnails">
+        <div class="project-thumb" data-modal="youtube-trends">
+          <img src="assets/images/youtube_trends.png" alt="Project 1 Thumbnail">
+          <h3>YouTube Trends Analysis</h3>
+        </div>
+        <div class="project-thumb" data-modal="project2">
+          <img src="assets/images/vehicle.jpeg" alt="Project 2 Thumbnail">
+          <h3>Texas Crash Analysis</h3>
+        </div>
+        <div class="project-thumb" data-modal="project3">
+          <img src="assets/slides/upwork/1.png" alt="Project 3 Thumbnail">
+          <h3>Upwork Data Architecture & Engineering Project</h3>
+        </div>
+        <div class="project-thumb" data-modal="project4">
+          <img src="assets/slides/swiggy/1.JPG" alt="Project 4 Thumbnail">
+          <h3>Swiggy Data Engineering using Snowflake</h3>
+        </div>
+        <div class="project-thumb" data-modal="project5">
+          <img src="assets/slides/humana/1.JPG" alt="Project 5 Thumbnail">
+          <h3>Predicting Unengaged Medicare Advantage Members</h3>
+        </div>
+      </div>
+
+      <!-- Project Modal (Two Column Layout) -->
+      <div id="project-modal" class="project-modal">
+        <div class="project-modal-content">
+          <button class="close-project-modal">&times;</button>
+          
+          <!-- Two Column Layout -->
+          <div class="project-modal-body">
+            <!-- Left Column: Image Slideshow (50% width) -->
+            <div class="project-modal-left">
+              <div class="slide-container">
+                <!-- Previous Arrow -->
+                <button class="slide-nav prev-slide" onclick="changeSlide(-1)">❮</button>
+                
+                <img id="slide-image" src="" alt="Project Slide" />
+                
+                <!-- Next Arrow -->
+                <button class="slide-nav next-slide" onclick="changeSlide(1)">❯</button>
+              </div>
+              <div class="project-dots" id="slide-dots"></div>
+            </div>
+
+            <!-- Right Column: Project Information (50% width) -->
+            <div class="project-modal-right">
+              <div class="project-info">
+                <h3 id="project-title">Project Details</h3>
+
+                <div class="project-meta-col">
+                  <div><strong>Project:</strong> <span id="project-type">Academic</span></div>
+                  <div><strong>Timeframe:</strong> <span id="project-timeframe">Spring 2024</span></div>
+                </div>
+
+                <div class="project-actions">
+                  <a id="dashboard-link" href="#" class="action-btn primary" target="_blank">View Dashboard</a>
+                  <a id="github-link" href="#" class="action-btn secondary" target="_blank">View on GitHub</a>
+                </div>
+
+                <div class="project-description">
+                  <strong>Description:</strong>
+                  <p id="project-description-text"></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications">
+      <h2 class="section-title">Certifications</h2>
+
+      <div class="cert-carousel-wrapper">
+        <!-- Left Arrow -->
+        <button class="carousel-arrow left cert-left">&#10094;</button>
+
+        <!-- Carousel Container -->
+        <div class="cert-carousel">
+          <!-- Certification 1 -->
+          <div class="cert-card">
+            <img alt="Salesforce Logo" class="cert-logo" src="assets/images/salesforce.jpg" />
+            <h3>Salesforce Certified Marketing Cloud Consultant</h3>
+            <p><strong>Issuer:</strong> Salesforce</p>
+            <p><strong>Issued:</strong> May 2023</p>
+            <p><strong>Credential ID:</strong> 3370148</p>
+            <button class="view-cert-button" data-pdf="assets/images/salesforce-certified-marketing-cloud-consultant.png">View Certificate</button>
+          </div>
+
+          <!-- Certification 2 -->
+          <div class="cert-card active">
+            <img alt="AWS Logo" class="cert-logo" src="assets/images/aws.jpg" />
+            <h3>AWS Certified Developer – Associate</h3>
+            <p><strong>Issuer:</strong> AWS</p>
+            <p><strong>Issued:</strong> Aug 2022</p>
+            <p><strong>Expires:</strong> Aug 2025</p>
+            <a class="view-cert-button" href="https://www.credly.com/badges/d88889ec-23a4-4df2-af3f-5ec7bac27e01" target="_blank">View Certificate</a>
+          </div>
+
+          <!-- Certification 3 -->
+          <div class="cert-card">
+            <img alt="Salesforce Logo" class="cert-logo" src="assets/images/salesforce.jpg" />
+            <h3>Salesforce Certified Marketing Cloud Administrator</h3>
+            <p><strong>Issuer:</strong> Salesforce</p>
+            <p><strong>Issued:</strong> Apr 2023</p>
+            <p><strong>Credential ID:</strong> 3294772</p>
+            <button class="view-cert-button" data-pdf="assets/images/salesforce-certified-marketing-cloud-administrator.png">View Certificate</button>
+          </div>
+
+          <!-- Certification 4 -->
+          <div class="cert-card">
+            <img alt="Salesforce Logo" class="cert-logo" src="assets/images/salesforce.jpg" />
+            <h3>Salesforce Certified Marketing Cloud Email Specialist</h3>
+            <p><strong>Issuer:</strong> Salesforce</p>
+            <p><strong>Issued:</strong> Apr 2023</p>
+            <p><strong>Credential ID:</strong> 3217745</p>
+            <button class="view-cert-button" data-pdf="assets/images/salesforce-certified-marketing-cloud-email-specialist.png">View Certificate</button>
+          </div>
+
+          <!-- Certification 5 -->
+          <div class="cert-card">
+            <img alt="Google Logo" class="cert-logo" src="assets/images/google.jpg" />
+            <h3>Google Data Analytics Specialization</h3>
+            <p><strong>Issuer:</strong> Google</p>
+            <p><strong>Issued:</strong> Nov 2024</p>
+            <p><strong>Credential ID:</strong> LZSKO72YZ5RW</p>
+            <button class="view-cert-button" data-pdf="assets/images/google-data-analytics-specialization.png">View Certificate</button>
+          </div>
+
+          <!-- Certification 6 -->
+          <div class="cert-card">
+            <img alt="Google Logo" class="cert-logo" src="assets/images/google.jpg" />
+            <h3>Google Business Intelligence Specialization</h3>
+            <p><strong>Issuer:</strong> Google</p>
+            <p><strong>Issued:</strong> Sep 2024</p>
+            <p><strong>Credential ID:</strong> TPDGUN4EVZRB</p>
+            <button class="view-cert-button" data-pdf="assets/images/google-business-intelligence-specialization.png">View Certificate</button>
+          </div>
+
+          <!-- Certification 7 -->
+          <div class="cert-card">
+            <img alt="Google Logo" class="cert-logo" src="assets/images/google.jpg" />
+            <h3>Google Project Management Specialization</h3>
+            <p><strong>Issuer:</strong> Google</p>
+            <p><strong>Issued:</strong> Feb 2025</p>
+            <p><strong>Credential ID:</strong> BFR5M5GGSQ1H</p>
+            <button class="view-cert-button" data-pdf="assets/images/google-project-management-specialization.png">View Certificate</button>
+          </div>
+
+          <!-- Certification 8 -->
+          <div class="cert-card">
+            <img alt="IBM Logo" class="cert-logo" src="assets/images/ibm.jpg" />
+            <h3>IBM AI Product Manager</h3>
+            <p><strong>Issuer:</strong> IBM</p>
+            <p><strong>Issued:</strong> Feb 2025</p>
+            <p><strong>Credential ID:</strong> GI4KXHBH0QDN</p>
+            <button class="view-cert-button" data-pdf="assets/images/ibm-ai-product-manager.png">View Certificate</button>
+          </div>
+
+          <!-- Certification 9 -->
+          <div class="cert-card">
+            <img alt="Skillsoft Logo" class="cert-logo" src="assets/images/skillsoft.jpg" />
+            <h3>Agile & TDD Best Practices for APIs</h3>
+            <p><strong>Issuer:</strong> Skillsoft</p>
+            <p><strong>Issued:</strong> Feb 2023</p>
+            <p><strong>Credential ID:</strong> 68919135</p>
+            <a class="view-cert-button" href="https://skillsoft.digitalbadges.skillsoft.com/f65ff800-8064-453e-8e99-8130a42b930b#acc.VY8wnqp4" target="_blank">View Certificate</a>
+          </div>
+
+          <!-- Certification 10 -->
+          <div class="cert-card">
+            <img alt="Skillsoft Logo" class="cert-logo" src="assets/images/skillsoft.jpg" />
+            <h3>Automated Software Testing</h3>
+            <p><strong>Issuer:</strong> Skillsoft</p>
+            <p><strong>Issued:</strong> Mar 2021</p>
+            <p><strong>Credential ID:</strong> 30297711</p>
+            <a class="view-cert-button" href="https://skillsoft.digitalbadges.skillsoft.com/68551910-3551-41e0-9820-47e6fcc19e18#acc.ULVsp1cE" target="_blank">View Certificate</a>
+          </div>
+        </div>
+
+        <!-- Right Arrow -->
+        <button class="carousel-arrow right cert-right">&#10095;</button>
+      </div>
+
+      <!-- Dot Navigation -->
+      <div class="cert-dots"></div>
+    </section>
+
+    <!-- Recommendations Section -->
+    <section id="recommendations">
+        <h2 class="section-title">Recommendations</h2>
+        
+        <!-- Introduction Paragraph -->
+        <p class="padded-paragraph">These recommendations reflect the collaborative relationships I've built throughout my career. From colleagues and supervisors to clients and academic mentors, these testimonials highlight my technical expertise, problem-solving abilities, and professional approach to data-driven projects. Each recommendation provides insight into my work style and the value I bring to teams and organization.</p>
+        <div class="reco-carousel-wrapper">
+            <!-- Left Arrow (hidden on first card) -->
+            <button class="carousel-arrow left reco-left">
+                <i class="fas fa-chevron-left"></i>
+            </button>
+            
+            <div class="reco-carousel">
+              <!-- First Recommendation Card -->
+              <div class="recommendation-card active">
+                  <center><h3>Patrick Pluscht</h3>
+                  <p class="reco-role">Executive Director, DSI Digital Growth at University of North Texas</p>
+                  <p class="reco-text">I've had the pleasure of working with Akhila for the past two semesters while she completed her master's in business analytics at UNT. She has been a great collaborator and I've learned a lot from her. She's developed custom data analytics tools using PowerBI and developing macros in Excel that will have a lasting impact and save tons of manual effort going forward. She was also instrumental in helping us migrate a large website promoting our Online Programs to a new CMS. She also researched and provided a report on how other universities use artificial intelligence for marketing and she's a sophisticated AI user/developer herself. Akhila has a sharp intellect, a kind demeanor, and a deep curiosity that position her for success and makes her a great job candidate in a demanding, data-driven environment. I'm feeling very lucky to have had her on my team.</p></center>
+              </div>
+              
+              <!-- Second Recommendation Card -->
+              <div class="recommendation-card">
+                  <center><h3>Dr. Shaik Subhani</h3>
+                  <p class="reco-role">Associate Professor Grade at VIT-AP University</p>
+                  <p class="reco-text">Akhila demonstrated exceptional analytical thinking and rapid learning ability, consistently ranking in the top 5% of her department. Her strong foundation in Data Warehousing and Data Mining was matched by her initiative in tackling complex problems beyond coursework. During her three-year leadership with CSAC, she showcased outstanding organizational and teamwork skills. She brings both technical depth and a proactive mindset—an ideal fit for demanding, high-impact roles.</p></center>
+              </div>
+              
+              <!-- Third Recommendation Card -->
+              <div class="recommendation-card">
+                  <center><h3>Nikhil Doreswamy</h3>
+                  <p class="reco-role">Associate Manager at Accenture</p>
+                  <p class="reco-text">Akhila is a tenacious and versatile professional with a strong drive for excellence. At Accenture, she consistently demonstrated the ability to work independently, adapt quickly to new challenges, and deliver high-quality results under minimal supervision. Her proactive learning style, strong problem-solving abilities, and seamless collaboration in team settings make her exceptionally well-suited for dynamic, results-driven roles.</p></center>
+              </div>
+            </div>
+            
+            <!-- Right Arrow (hidden on last card) -->
+            <button class="carousel-arrow right reco-right">
+                <i class="fas fa-chevron-right"></i>
+            </button>
+        </div>
+        
+        <!-- Empty dots container - JavaScript will populate this -->
+        <div class="reco-dots"></div>
+
+        <!-- Write Recommendation Button -->
+        <div style="text-align: center; margin-top: 1.5rem;">
+          <a href="https://www.linkedin.com/in/akhila-akula-6332a9155/details/recommendations/" target="_blank" class="endorse-button">
+            Write a Recommendation
+          </a>
+        </div>
+
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+      <h2 class="section-title">Contact</h2>
+      <div class="contact-container">
+        <div class="contact-item">
+          <div class="icon-circle"><i class="fas fa-map-marker-alt"></i></div>
+          <div class="contact-info">
+            <p class="contact-label">Location:</p>
+            <p class="contact-text">Dallas-Fort Worth, TX, USA<br><em>Open to Relocate</em></p>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="icon-circle"><i class="fas fa-envelope"></i></div>
+          <div class="contact-info">
+            <p class="contact-label">Email:</p>
+            <p class="contact-text"><a href="mailto:akhilaakula73@gmail.com">akhilaakula73@gmail.com</a></p>
+            <p class="contact-text"><a href="mailto:akhilaakula2@my.unt.edu">akhilaakula2@my.unt.edu</a></p>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="icon-circle"><i class="fas fa-phone"></i></div>
+          <div class="contact-info">
+            <p class="contact-label">Call:</p>
+            <p class="contact-text"><a href="tel:+9406298468">Tap to Call</a></p>
+          </div>
+        </div>
       </div>
     </section>
-    <section class="highlight">
-      <div class="container">
-        <h3>🌟 Featured Project: Freelance Data Warehouse</h3>
-        <p>Designed a MySQL-based data warehouse for a freelance marketplace. Integrated QlikView for dynamic dashboards, implemented ER diagrams, and optimized for dimensional reporting. Resulted in 30% faster decision-making insights.</p>
-        <a href="projects.html" class="btn-secondary">Explore More Projects</a>
+
+    <footer class="portfolio-footer">
+      <p class="footer-quote">
+        "Data is more than numbers — it's a lens through which we understand, innovate, and lead change."
+      </p>
+      <h2 class="footer-name">Bhavana Kadiyala</h2>
+      <div class="footer-socials">
+        <a href="https://www.linkedin.com/in/akhila-akula-6332a9155/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+        <a href="https://github.com/akhilaakula78" target="_blank"><i class="fab fa-github"></i></a>
       </div>
-    </section>
+    </footer>
   </main>
-  <footer class="footer">
-    <div class="container">
-      <p>&copy; 2025 Bhavana Kadiyala</p>
-      <p>Contact: <a href="mailto:bhavanakadiyala29@gmail.com">Email</a> | <a href="https://linkedin.com/in/bhavana-kadiyala-973ab7137">LinkedIn</a></p>
+
+  <!-- Mobile Navigation -->
+  <div class="mobile-nav">
+    <a href="#home"><i class="fas fa-home"></i></a>
+    <a href="#about"><i class="fas fa-user"></i></a>
+    <a href="#experience"><i class="fas fa-briefcase"></i></a>
+    <a href="#projects"><i class="fas fa-project-diagram"></i></a>
+    <a href="#certifications"><i class="fas fa-certificate"></i></a>
+    <a href="#recommendations"><i class="fas fa-comment-dots"></i></a>
+    <a href="#contact"><i class="fas fa-envelope"></i></a>
+  </div>
+
+  <!-- Certificate Modal (iframe viewer) -->
+  <div id="cert-modal" class="pdf-modal">
+    <div class="pdf-container">
+      <button id="closePdf">&times;</button>
+      <iframe id="cert-frame" src="" frameborder="0"></iframe>
+      <img id="cert-image" alt="Certificate" style="display: none;" />
     </div>
-  </footer>
+  </div>
+
+  <!-- External Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+  <!-- Custom JavaScript: All Scripts Grouped Below -->
+  <script>
+  // ========== GLOBAL FUNCTIONS FOR MODAL NAVIGATION ==========
+  let currentSlideIndex = 0;
+  let currentProjectSlides = [];
+
+  function showSlide(index) {
+    if (currentProjectSlides.length === 0) return;
+    
+    // Ensure index is within bounds
+    if (index >= currentProjectSlides.length) index = 0;
+    if (index < 0) index = currentProjectSlides.length - 1;
+    
+    // Update image
+    const slideImage = document.getElementById('slide-image');
+    if (slideImage) {
+      slideImage.src = currentProjectSlides[index];
+      slideImage.alt = `Slide ${index + 1} of ${currentProjectSlides.length}`;
+    }
+    
+    // Update dots
+    document.querySelectorAll('#slide-dots .dot').forEach((dot, i) => {
+      dot.classList.toggle('active', i === index);
+    });
+    
+    currentSlideIndex = index;
+  }
+
+  function changeSlide(direction) {
+    const newIndex = currentSlideIndex + direction;
+    showSlide(newIndex);
+  }
+
+  document.addEventListener('DOMContentLoaded', () => {
+    // ========== Typed.js ==========
+    new Typed("#typed-role", {
+      strings: ["Data Scientist", "Data Analyst", "Data Engineer", "Salesforce Consultant", "AI/ML Enthusiast"],
+      typeSpeed: 60,
+      backSpeed: 30,
+      loop: true
+    });
+
+    // ========== Nav Highlight ==========
+    const sections = document.querySelectorAll("section");
+    const navLinks = document.querySelectorAll("nav a, .mobile-nav a");
+    const observer = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        const id = entry.target.getAttribute("id");
+        if (entry.isIntersecting) {
+          navLinks.forEach(link => {
+            link.classList.remove("active");
+            if (link.getAttribute("href") === `#${id}`) {
+              link.classList.add("active");
+            }
+          });
+        }
+      });
+    }, { threshold: 0.1 });
+    sections.forEach(section => observer.observe(section));
+
+    // ========== Recommendations Carousel ==========
+    const recoCards = document.querySelectorAll('.recommendation-card');
+    const recoDotsContainer = document.querySelector('.reco-dots');
+    const recoLeftArrow = document.querySelector('.reco-left');
+    const recoRightArrow = document.querySelector('.reco-right');
+    let recoIndex = 0;
+
+    function updateRecoCarousel() {
+      recoCards.forEach((card, i) => card.classList.toggle('active', i === recoIndex));
+      
+      document.querySelectorAll('.reco-dots .dot').forEach((dot, i) => {
+        dot.classList.toggle('active', i === recoIndex);
+      });
+
+      if (recoIndex === 0) {
+        recoLeftArrow.style.visibility = 'hidden';
+        recoRightArrow.style.visibility = 'visible';
+      } else if (recoIndex === recoCards.length - 1) {
+        recoLeftArrow.style.visibility = 'visible';
+        recoRightArrow.style.visibility = 'hidden';
+      } else {
+        recoLeftArrow.style.visibility = 'visible';
+        recoRightArrow.style.visibility = 'visible';
+      }
+    }
+
+    recoCards.forEach((_, index) => {
+      const dot = document.createElement('div');
+      dot.classList.add('dot');
+      dot.addEventListener('click', () => {
+        recoIndex = index;
+        updateRecoCarousel();
+      });
+      recoDotsContainer.appendChild(dot);
+    });
+
+    recoLeftArrow.addEventListener('click', () => {
+      if (recoIndex > 0) {
+        recoIndex--;
+        updateRecoCarousel();
+      }
+    });
+
+    recoRightArrow.addEventListener('click', () => {
+      if (recoIndex < recoCards.length - 1) {
+        recoIndex++;
+        updateRecoCarousel();
+      }
+    });
+
+    updateRecoCarousel();
+
+    // ========== Certifications Carousel ==========
+    const certCards = document.querySelectorAll('.cert-card');
+    const certDotsContainer = document.querySelector('.cert-dots');
+    let certIndex = 0;
+
+    const certModal = document.getElementById('cert-modal');
+    const certFrame = document.getElementById('cert-frame');
+    const certImage = document.getElementById('cert-image');
+    const closeCertBtn = document.getElementById('closePdf');
+
+    function updateCertCarousel() {
+      certCards.forEach((card, i) => card.classList.toggle('active', i === certIndex));
+      document.querySelectorAll('.cert-dots .dot').forEach((dot, i) => {
+        dot.classList.toggle('active', i === certIndex);
+      });
+
+      document.querySelector('.cert-left').style.display = certIndex === 0 ? 'none' : 'block';
+      document.querySelector('.cert-right').style.display = certIndex === certCards.length - 1 ? 'none' : 'block';
+    }
+
+// Update the certificate button event listeners
+document.querySelectorAll('.view-cert-button').forEach(btn => {
+  btn.addEventListener('click', (e) => {
+    e.preventDefault(); // Prevent default link behavior
+    
+    const src = btn.getAttribute('data-pdf');
+    const href = btn.getAttribute('href');
+
+    // Reset modal content
+    certFrame.style.display = 'none';
+    certImage.style.display = 'none';
+    certFrame.src = '';
+    certImage.src = '';
+
+    // Handle external links (open in new tab)
+    if (href && href.startsWith('http')) {
+      window.open(href, '_blank');
+      return;
+    }
+    
+    // Handle local images in modal
+    if (src && src.match(/\.(jpg|jpeg|png)$/i)) {
+      certImage.src = src;
+      certImage.style.display = 'block';
+      certModal.classList.add('open');
+    }
+    // Handle PDFs in modal
+    else if (src) {
+      certFrame.src = src;
+      certFrame.style.display = 'block';
+      certModal.classList.add('open');
+    }
+  });
+});
+
+
+    closeCertBtn.addEventListener('click', () => {
+      certModal.classList.remove('open');
+      certFrame.src = '';
+      certImage.src = '';
+      certFrame.style.display = 'none';
+      certImage.style.display = 'none';
+    });
+
+    certCards.forEach((_, index) => {
+      const dot = document.createElement('div');
+      dot.classList.add('dot');
+      dot.addEventListener('click', () => {
+        certIndex = index;
+        updateCertCarousel();
+      });
+      certDotsContainer.appendChild(dot);
+    });
+
+    document.querySelector('.cert-left').addEventListener('click', () => {
+      if (certIndex > 0) certIndex--;
+      updateCertCarousel();
+    });
+
+    document.querySelector('.cert-right').addEventListener('click', () => {
+      if (certIndex < certCards.length - 1) certIndex++;
+      updateCertCarousel();
+    });
+
+    updateCertCarousel();
+
+    // ========== Project Modal Setup ==========
+    const projectModal = document.getElementById('project-modal');
+    const slideImage = document.getElementById('slide-image');
+    const slideDots = document.getElementById('slide-dots');
+    const closeProjectBtn = document.querySelector('.close-project-modal');
+
+    // Project data with all 6 projects
+    const projectData = {
+      'youtube-trends': {
+        title: 'Global YouTube Trends Analysis with Tableau',
+        type: 'Academic',
+        timeframe: 'Spring 2024',
+        description: 'This project features a Tableau dashboard that analyzes global YouTube trends using publicly available data. It provides strategic insights into subscriber distribution, content categories, channel saturation, earnings potential, and regional influence. Key findings highlight that the United States, India, and Brazil lead in audience size, while Music and Entertainment channels dominate in subscribers and revenue. Cluster analysis identifies four distinct channel types with varying patterns in audience engagement and content output. Additionally, categories like Education and Film & Animation show untapped monetization potential, suggesting opportunities for growth.',
+        images: [
+          'assets/slides/youtube/1.JPG',
+          'assets/slides/youtube/2.JPG',
+          'assets/slides/youtube/3.JPG',
+          'assets/slides/youtube/4.JPG',
+          'assets/slides/youtube/5.JPG',
+          'assets/slides/youtube/6.JPG',
+          'assets/slides/youtube/7.JPG',
+          'assets/slides/youtube/8.JPG',
+          'assets/slides/youtube/9.JPG',
+          'assets/slides/youtube/10.JPG',
+          'assets/slides/youtube/11.JPG',
+          'assets/slides/youtube/12.JPG',
+          'assets/slides/youtube/13.JPG',
+          'assets/slides/youtube/14.JPG',
+          'assets/slides/youtube/15.JPG'
+        ],
+        dashboardLink: 'https://public.tableau.com/app/profile/akhila.akula/viz/Global_YouTube_Statistics/ExploringGlobalYouTubeTrends',
+        githubLink: 'https://github.com/akhilaakula78/Global-YouTube-Trends-Tableau'
+      },
+      'project2': {
+        title: 'Analyzing Road Crashes And Fatalities In Texas For Better Road Safety',
+        type: 'Academic(Capstone)',
+        timeframe: 'Spring 2025',
+        description: 'This project aims to enhance traffic safety and emergency response efficiency in Texas by predicting crash severity and clearance time using over 2.4 million records from the Texas Department of Transportation. By classifying crashes into three severity levels and estimating the duration needed to clear the scene, the models support real-time decision-making for first responders and traffic operators. Key features influencing crash severity include driver alcohol use, vehicle damage, vehicle age, crash timing, and driver impairment. For clearance time, critical predictors include crash hour, distance to trauma centers, intersection involvement, alcohol-related incidents, and speed limits. The project employed advanced machine learning techniques like XGBoost and Random Forest, achieving strong performance in classification (84.2% accuracy) and moderate performance in regression (R² ≈ 0.28). This work supports a real-time crash severity tagging system that can prioritize emergency response, inform traffic rerouting, and optimize resource allocation, with potential applications in traffic management, EMS logistics, and urban planning.',
+        images: [
+          'assets/slides/vehicle/1.JPG',
+          'assets/slides/vehicle/2.JPG',
+          'assets/slides/vehicle/3.JPG',
+          'assets/slides/vehicle/4.JPG',
+          'assets/slides/vehicle/5.JPG',
+          'assets/slides/vehicle/6.JPG',
+          'assets/slides/vehicle/7.JPG',
+          'assets/slides/vehicle/8.JPG',
+        ],
+        dashboardLink: null,
+        githubLink: 'https://github.com/akhilaakula78/vehicle-crash-analysis'
+      },
+      'project3': {
+        title: 'End-to-End Data Warehouse and BI Dashboard for a Freelance Services Platform',
+        type: 'Academic',
+        timeframe: 'Fall 2024',
+        description: 'This project presents a complete end-to-end data warehousing and business intelligence solution modeled after a freelance marketplace like Upwork. It encompasses the full data lifecycle&#8212from designing a transactional database using MySQL Workbench, to transforming it into a star schema for analytics, and building a fully interactive QlikView dashboard. Key entities such as clients, freelancers, projects, bids, and reviews were simulated using Python’s Faker library, generating a realistic dataset for analysis. The system includes normalized and dimensional models to support scalable, analysis-ready data and OLAP-style queries. The QlikView dashboard provides actionable insights across client, freelancer, and project dimensions, enabling informed decision-making. This initiative demonstrates expertise in database design, ETL processes, BI tools, and storytelling through data.',
+        images: [
+          'assets/slides/upwork/e.png',
+          'assets/slides/upwork/d.png',
+          'assets/slides/upwork/1.png',
+          'assets/slides/upwork/2.png',
+          'assets/slides/upwork/3.png',
+          'assets/slides/upwork/4.png',
+          'assets/slides/upwork/5.png'
+        ],
+        dashboardLink: null,
+        githubLink: 'https://github.com/akhilaakula78/End-to-End-Data-Warehouse-and-Dashboard-for-a-Freelance-Platform'
+      },
+      'project4': {
+        title: 'Swiggy Data Engineering using Snowflake',
+        type: 'Personal',
+        timeframe: 'Spring 2025',
+        description: 'This project simulates the data ecosystem of a major food aggregator—modeled after Swiggy—by building a complete end-to-end ELT (Extract, Load, Transform) data engineering pipeline. The solution ingests raw CSV files representing customers, orders, restaurants, and deliveries into Snowflake, processes and transforms them across staging, clean, and consumption layers, and visualizes key business metrics using a Streamlit dashboard. Key components include data modeling (fact/dimension tables), delta processing with Streams and MERGE, and the implementation of Slowly Changing Dimensions (SCD Type 2). KPIs such as revenue by restaurant, delivery time by city, and customer retention are dynamically visualized to support data-driven insights. The project demonstrates modern cloud data warehousing techniques, scalable data transformation logic, and self-service business intelligence—all using open-source tools and simulated realistic datasets. It lays the groundwork for further enhancements such as dbt modularization, Airflow orchestration, and real-time data ingestion.',
+        images: [
+          'assets/slides/swiggy/1.JPG',
+          'assets/slides/swiggy/2.JPG',
+          'assets/slides/swiggy/3.JPG',
+          'assets/slides/swiggy/4.JPG',
+          'assets/slides/swiggy/5.JPG',
+          'assets/slides/swiggy/6.JPG',
+          'assets/slides/swiggy/7.JPG'
+        ],
+        dashboardLink: null,
+        githubLink: 'https://github.com/akhilaakula78/Swiggy_EndtoEnd_Project_using_Snowflake'
+      },
+      'project5': {
+        title: 'Predicting Unengaged Medicare Advantage Members',
+        type: 'Academic',
+        timeframe: 'Spring 2022',
+        description: 'This project aims to proactively identify Medicare Advantage members who are unlikely to complete a preventive Primary Care Physician (PCP) visit within the plan year. By leveraging demographic, claims, prescription, and social determinant data, machine learning models were developed to predict member engagement risk. The goal is to support targeted outreach strategies that enhance CMS Stars ratings and risk adjustment outcomes for Humana. Key methodologies included advanced feature engineering, SHAP-based interpretability, and the use of ensemble models such as XGBoost, LightGBM, and Random Forest. The final model achieved an AUC of 0.749 and demonstrated strong recall, making it effective for prioritizing high-risk, unengaged members. This solution enables monthly scoring, integration with communication workflows, and supports data-driven decision-making for improving preventive care engagement. Developed as part of the Humana Mays Case Competition, the project demonstrates real-world impact potential in healthcare analytics and patient engagement.',
+        images: [
+          'assets/slides/humana/1.JPG',
+          'assets/slides/humana/2.JPG',
+          'assets/slides/humana/3.JPG',
+          'assets/slides/humana/4.JPG',
+          'assets/slides/humana/5.JPG',
+          'assets/slides/humana/6.JPG',
+          'assets/slides/humana/7.JPG',
+          'assets/slides/humana/8.JPG',
+          'assets/slides/humana/9.JPG',
+          'assets/slides/humana/10.JPG',
+          'assets/slides/humana/11.JPG'
+        ],
+        dashboardLink: null,
+        githubLink: 'https://github.com/akhilaakula78/humana-unengaged-member-modeling'
+      },
+    };
+    
+
+    function createSlideDots(numSlides) {
+      if (!slideDots) return;
+      slideDots.innerHTML = '';
+      for (let i = 0; i < numSlides; i++) {
+        const dot = document.createElement('div');
+        dot.classList.add('dot');
+        if (i === 0) dot.classList.add('active');
+        dot.addEventListener('click', () => {
+          showSlide(i);
+        });
+        slideDots.appendChild(dot);
+      }
+    }
+
+    // Update your loadProject function to hide the dashboard button conditionally
+    function loadProject(projectName) {
+      const project = projectData[projectName];
+      if (!project) {
+        console.error('Project not found:', projectName);
+        return;
+      }      
+
+    // Update project information
+      const titleEl = document.getElementById('project-title');
+      const typeEl = document.getElementById('project-type');
+      const timeframeEl = document.getElementById('project-timeframe');
+      const descEl = document.getElementById('project-description-text');
+      const dashboardEl = document.getElementById('dashboard-link');
+      const githubEl = document.getElementById('github-link');
+      
+      if (titleEl) titleEl.textContent = project.title;
+      if (typeEl) typeEl.textContent = project.type;
+      if (timeframeEl) timeframeEl.textContent = project.timeframe;
+      if (descEl) descEl.textContent = project.description;
+      if (githubEl) githubEl.href = project.githubLink;
+      
+      // CRITICAL: Hide dashboard button if no dashboard link
+      if (dashboardEl) {
+        if (project.dashboardLink && project.dashboardLink !== null && project.dashboardLink !== '') {
+          dashboardEl.href = project.dashboardLink;
+          dashboardEl.style.display = 'block'; // Show button
+        } else {
+          dashboardEl.style.display = 'none'; // Hide button
+        }
+      }
+      
+      // Load slides and show modal
+      currentProjectSlides = project.images;
+      createSlideDots(project.images.length);
+      showSlide(0);
+      
+      if (projectModal) {
+        projectModal.classList.add('open');
+      }
+    }     
+
+
+    // Event listeners for project thumbnails
+    document.querySelectorAll('.project-thumb').forEach(thumb => {
+      thumb.addEventListener('click', () => {
+        const modalName = thumb.getAttribute('data-modal');
+        if (modalName) {
+          loadProject(modalName);
+        }
+      });
+    });
+
+    // Close modal functionality
+    if (closeProjectBtn) {
+      closeProjectBtn.addEventListener('click', () => {
+        if (projectModal) {
+          projectModal.classList.remove('open');
+        }
+        currentProjectSlides = [];
+        currentSlideIndex = 0;
+        if (slideDots) slideDots.innerHTML = '';
+      });
+    }
+
+    // Close modal when clicking outside
+    if (projectModal) {
+      projectModal.addEventListener('click', (e) => {
+        if (e.target === projectModal) {
+          projectModal.classList.remove('open');
+          currentProjectSlides = [];
+          currentSlideIndex = 0;
+          if (slideDots) slideDots.innerHTML = '';
+        }
+      });
+    }
+
+    // Keyboard navigation
+    document.addEventListener('keydown', (e) => {
+      if (projectModal && projectModal.classList.contains('open')) {
+        if (e.key === 'ArrowLeft') {
+          changeSlide(-1);
+        } else if (e.key === 'ArrowRight') {
+          changeSlide(1);
+        } else if (e.key === 'Escape') {
+          projectModal.classList.remove('open');
+          currentProjectSlides = [];
+          currentSlideIndex = 0;
+          if (slideDots) slideDots.innerHTML = '';
+        }
+      }
+    });
+
+  });
+  </script>
+
 </body>
 </html>
